@@ -1,6 +1,6 @@
 <template>
 
-<h1>Componente HelloWorld</h1>
+<h1>Componente HelloWorlddd</h1>
 </template>
 
 <script>

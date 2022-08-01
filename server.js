@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const porta = process.env.PORT || 8080
 
 
 app.use(express.static(__dirname + '/dist/'))
@@ -9,7 +10,7 @@ app.get('/', function(req, res) {
 })
 
 
-app.listen(3000, function(){
+app.listen(porta, function(){
     console.log('Servidor web rodando com Express')
 })
 
